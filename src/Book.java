@@ -4,11 +4,9 @@ public class Book {
 
     int publicationYear;
 
-    public static Book TheBook(String bookName, int publicationYear) {
-        Book oldMansWar = new Book();
-        oldMansWar.bookName = bookName;
-        oldMansWar.publicationYear = publicationYear;
-        return oldMansWar;
+    public Book(String bookName, int publicationYear) {
+        this.bookName = bookName;
+        this.publicationYear = publicationYear;
     }
 
 

@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        Book oldMansWar = Book.TheBook("Old Man's War", 2005);
+        Book oldMansWar = new Book("Old Man's War", 2005);
         System.out.println("oldMansWar.bookName = " + oldMansWar.bookName);
         System.out.println("oldMansWar.publicationYear = " + oldMansWar.publicationYear);
         Author john = new Author();
