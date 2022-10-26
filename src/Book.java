@@ -8,7 +8,10 @@ public class Book {
         this.bookName = bookName;
         this.publicationYear = publicationYear;
     }
-    
+
+    public void setPublicationYear(int publicationYear) {
+        this.publicationYear = publicationYear;
+    }
 
 
 }
