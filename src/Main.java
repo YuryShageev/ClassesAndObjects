@@ -7,7 +7,7 @@ public class Main {
         oldMansWar.setPublicationYear(2006);// Поставил сеттер здесь
         System.out.println("oldMansWar.publicationYear = " + oldMansWar.publicationYear);
         Author john = new Author("John", " Scalzi");
-        System.out.println("Author's Name = " + john.getFirstName() + john.secondName);//Геттер есть здесь
+        System.out.println("Author's Name = " + john.getFirstName() + john.getSecondName());//Геттер есть здесь
 
 
         Book theBoysFromBrazil = new Book("The Boys From Brazil", 1976);
