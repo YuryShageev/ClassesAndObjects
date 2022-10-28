@@ -14,6 +14,6 @@ public class Main {
         System.out.println("The name of the book = " + theBoysFromBrazil.bookName);
         System.out.println("Published = " + theBoysFromBrazil.publicationYear);
         Author ira = new Author("Ira", " Levin");
-        System.out.println("Author's name = " + ira.getFirstName() + ira.secondName);
+        System.out.println("Author's name = " + ira.getFirstName() + ira.getSecondName());
     }
 }
